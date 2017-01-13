@@ -1,0 +1,58 @@
+/* CSS Document */
+
+body {
+	background: #9C948A;
+}
+
+h1 {
+	color: red;
+	text-shadow: 0 0 4px #000;
+	text-align: center;
+}
+
+#video-container {
+	position: relative;
+	width: 853px;
+	height: 480px;
+	border: 2px solid #FEFFFD;
+	margin-left: 195px;
+}
+
+#video-container video {
+	width: 853px;
+	height: 480px;
+}
+
+#video-container div {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+	opacity: 0;
+	transition: ease 2s;
+	-moz-transition: ease 2s; /* Firefox 4 */
+	-webkit-transition: ease 2s; /* Safari and Chrome */
+	-o-transition: ease 2s; /* Opera */
+}
+
+#video-container:hover div {
+	opacity: 0.7;
+}
+
+#posters {
+	width: 180px;
+	float: left;	
+}
+
+#posters img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 1px #000;
+	cursor: pointer;
+	width: 174px;
+	height: 234px;
+	margin: 0 0 10px 10px;
+}
+
+p {
+ clear: both;
+ padding: 4px;
+}

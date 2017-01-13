@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FAIFLIX</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+
+<h1>FAIFLIX</h1>
+
+<div id="posters">
+	<img data-video="sintel" src="images/sintel.jpg" />
+	<img data-video="bunny" src="images/bunny.jpg" />
+</div>
+
+<div id="video-container">
+	<video preload="auto" poster="images/sintel-poster.png" id="video">
+		<source src="media/sintel.ogv" type="video/ogg" />
+		<p>This browser doesn't support HTML5 Video</p>
+	</video>
+	<div>
+		<button class="btn btn-primary" id="btn-play">Play</button>
+		<button class="btn" id="btn-pause">Pause</button>
+		<button class="btn btn-danger" id="btn-stop">Stop</button>
+	</div>
+</div>
+
+<p>
+If you wanna know more details about this 
+<a href="faiflix.zip">example</a> you can 
+<a href="faiflix.zip">download it</a>.
+</p>
+
+<script type="text/javascript" src="js/FaiFlix.js"></script>
+
+</body>
+</html>
